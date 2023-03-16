@@ -1,0 +1,36 @@
+.UserFriendList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+  margin: auto;
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border: 2px solid grey;
+}
+
+.Status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.Status.IsOnline {
+  background-color: blue;
+}
+
+.Avatar {
+  padding: 2px;
+  height: 100%;
+  width: 48px;
+}
+
+.Name {
+  margin: 0;
+}
